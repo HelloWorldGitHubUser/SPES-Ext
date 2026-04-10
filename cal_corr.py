@@ -73,3 +73,4 @@ if __name__ == '__main__':
     with open(f"./func_candi_tuple_lst/{start}.txt", "w") as wf:
         for f, tri_tuple_lst in pre_func_lst.items():
             wf.write(f+":"+'\t'.join("{},{},{:.4f}".format(a, b, c) for (a, b, c) in tri_tuple_lst)+'\n')
+
